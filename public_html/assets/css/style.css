@@ -127,7 +127,7 @@ ul, li {
 }
 .trans-bg {
   position: relative;
-  background: rgba(0, 167, 221, 0.70);
+  background: url(../images/video.jpg) repeat;
   padding: 120px 0;
 }
 
@@ -393,10 +393,10 @@ header ul > li  {
 header .navbar-default .navbar-nav > .current > a, 
 header .navbar-default .navbar-nav > .current > a:hover,
 header .navbar-default .navbar-nav > .current > a:focus {
-    background-color: #00A7DD;
+    background-color: #ffbb33;
     color: #FEFEFE;
 }
-
+/*ffbb33*/
 /*
 ========================================================================
 # - 2.1 - Menu styles
@@ -666,7 +666,7 @@ section.banner-carousel {
 }
 .banner-carousel .app li .fa:hover,
 .banner .app li .fa:hover {
-  color: #086176;
+  color: #ffbb33;
 }
 
 .text-slider {
@@ -704,7 +704,7 @@ section.banner-carousel {
 h2 {
   font-weight: 800;  
   margin-bottom: 50px;
-  color: #fff;
+  color: #ff6600;
 }
 h3 {
   font-weight: 600; 
@@ -715,7 +715,7 @@ h3 {
   font-size: 32px;
   margin-bottom: 10px;
   padding: 22px;
-  color: #00a8e0;
+  color: #ff6600;
   border: 2px solid #00a8e0;
   width: 80px;
   height: 80px;
@@ -729,7 +729,7 @@ h3 {
   margin-bottom: 30px;
 }
 .app-block:hover .fa {
-  color: #fff;
+  color: #ffbb33;
   box-shadow: inset 0px 0px 0px 50px #00a8e0;
   -webkit-box-shadow: inset 0px 0px 0px 50px #00a8e0;
   -moz-box-shadow: inset 0px 0px 0px 50px #00a8e0;
@@ -743,7 +743,7 @@ h3 {
 */
 
 .feature {
-  background: url(../images/feature_bg.jpg) no-repeat fixed;
+  background: url(../images/back.gif) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -765,6 +765,46 @@ h3 {
   right: 0px;
   width: 58px;
   height: 58px;  
+}
+.image-marca {
+    border-radius: 50%;
+}
+.feature-marcas {
+  width: 58px;
+  height: 58px;
+  text-align: center;
+  line-height: 56px;
+/*  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;*/
+  -webkit-transition: all ease-in .4s;
+  -moz-transition: all ease-in .4s;
+  -o-transition: all ease-in .4s;
+  -ms-transition: all ease-in .4s;
+  
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  width: 58px;
+  height: 58px;
+}
+
+.feature-marcas-2 {
+  width: 58px;
+  height: 58px;
+  text-align: center;
+  line-height: 56px;
+/*  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;*/
+  -webkit-transition: all ease-in .4s;
+  -moz-transition: all ease-in .4s;
+  -o-transition: all ease-in .4s;
+  -ms-transition: all ease-in .4s;
+  
+  position: absolute;
+  top: 0%;
+  left: -115px;
 }
 .feature-list-left .feature-icon, .feature-list-right .feature-icon {
   width: 58px;
@@ -835,7 +875,7 @@ section.description {
   margin-right: 15px;
 }
 .description-list li .fa {  
-  color: #00A7DD;
+  color: #ffbb33;
   font-size: inherit;
 }
 
@@ -850,7 +890,7 @@ section.video {
   padding: 0 0;
 }
 .video {
-  background: url(../images/video_bg.jpg) no-repeat fixed;
+  background: url(../images/video_1.jpg) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -862,19 +902,19 @@ section.video {
   padding: 80px 0;
 }
 .play {
-  background: #fff url(../images/play-btn.png) no-repeat 60% 50%;
+  background: #fff url(../images/play.png) no-repeat 60% 50%;
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
+  /*box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
   -webkit-box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5);
-  -moz-box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5); 
+  -moz-box-shadow: 0px 0px 0px 20px rgba(0, 167, 221, 0.5); */
   display: inline-block;
-  margin-bottom: 40px;
+  /*margin-bottom: 00px;*/
   -webkit-transition: all ease-in .4s;
   -moz-transition: all ease-in .4s;
   -o-transition: all ease-in .4s;
-  -ms-transition: all ease-in .4s;
+  -ms-transition: all ease-in .4s; 
 }
 .play:hover {
           box-shadow: 0px 0px 15px 20px rgba(0, 84, 111, 0.5);
@@ -1014,7 +1054,7 @@ section.video {
 */
 
 .review {
-  background: url(../images/reviews_bg.jpg) no-repeat fixed;
+  background: url(../images/reviews_bg.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1139,7 +1179,7 @@ section.video {
   margin-bottom: 20px;
 }
 .price-header {
-  background: #0aabe1;
+  background: #ffbf80;
   padding:20px;
   text-align: center;
   height: 180px;
@@ -1147,19 +1187,19 @@ section.video {
 }
 .price-block:hover .price-header,
 .price-block.active .price-header {
-  background: #048bb9;
+  background: #ffbf80;
 }
 .price-header h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 12px;
-  color: #fff;
+  color: #ff6600;
   text-transform: capitalize;
 }
 .price-header .fa {
   font-size: 50px;
-  color: #0aabe1;
+  color: #ffbb33;
   line-height: 1.8;
   width: 155px;
   height:155px;
@@ -1200,6 +1240,16 @@ section.video {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.mapa {
+    align-self: center;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .downlaod .btn {
   border: 1px solid #fff;
   color: #fff;
@@ -1254,7 +1304,7 @@ section.video {
 .support-block:hover .fa,
 .support-block.active .fa {
   background: #fff;
-  color: #0aabe1;
+  color: #ffbb33;
   box-shadow: 0px 0px 0px 10px #0aabe1;
   -webkit-box-shadow: 0px 0px 0px 10px #0aabe1;
   -moz-box-shadow: 0px 0px 0px 10px #0aabe1;
@@ -1276,8 +1326,8 @@ section.video {
   height: 63px;
   font-size: 30px;
   line-height: 2;
-  color: #fff;
-  background: #0aabe1;
+  color: #ffbb33;
+  background: #ffbb33;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 10px #cceef9;
   -webkit-box-shadow: 0px 0px 0px 10px #cceef9;
@@ -1390,7 +1440,7 @@ section.contact > .container {
   background-color: transparent;
 }
 .contact .nav-tabs li .fa {
-  background: #0aabe1;
+  background: #ffbb33;
   text-align: center;
   border-radius: 50%;
   color: #fff;
@@ -1413,7 +1463,7 @@ section.contact > .container {
 .contact .nav-tabs > li.active > a:hover .fa,
 .contact .nav-tabs > li.active > a:focus .fa {
   background: #fff;
-  color: #0aabe1;
+  color: #ffbb33;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
      -moz-box-shadow: 0px 0px 0px 20px rgba(255, 255, 255,0.75);
@@ -1450,7 +1500,7 @@ section.contact > .container {
 }
 .contact-info .fa {
   font-size: 50px;
-  color: #0aabe1; 
+  color: #ffbb33; 
   margin-bottom: 50px;
 } 
 
@@ -1515,7 +1565,6 @@ section.contact > .container {
 */
 
 #footer {
-   background: url(../images/footer_bg.jpg) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1530,7 +1579,7 @@ section.contact > .container {
 }
 .social-icon .fa {
   font-size: 30px;
-  color: #0aabe1;
+  color: #ffbb33;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -1589,7 +1638,8 @@ section.contact > .container {
 }
 .pointer .fa {
   font-size: 40px;
-  color:rgba(255, 255, 255, .38)
+  color: #ffbb33;
+ /* color:rgba(255, 255, 255, .38)*/
 }
 .pointer .fa:hover {
   color: #fff;
